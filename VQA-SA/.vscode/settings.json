@@ -1,0 +1,22 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.hg/store/**": true,
+        "**/sln/**": true,
+    },
+    "python.analysis.exclude": [
+        "**/sln/**",
+        "**/output/**",
+        "**/logs/**",
+        "**/Logs/**",
+        "**/data/**",
+        "**/asset/**",
+        "*.json",
+        "*.lost"
+    ],
+    "python.analysis.extraPaths": [
+        "../Portable"
+    ],
+}
